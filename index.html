@@ -24,6 +24,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -49,9 +53,9 @@
                     </ul>
                 </div>
                 <a class="flex items-center gap-1">
-                    <span class="text-lg font-bold">English</span>
+                    <span class="text-[20px] font-bold">English</span>
                     <img src="./assets/logo.png" alt="">
-                    <span class="font-bangla text-lg font-semibold">জানালা</span>
+                    <span class="tiro-bangla text-[20px] font-semibold">জানালা</span>
                 </a>
             </div>
             <div class="navbar-end hidden lg:flex">
@@ -69,5 +73,41 @@
             </div>
         </div>
     </header>
+    <main>
+        <section class="w-11/12 mx-auto flex flex-col-reverse md:flex-row justify-between items-center py-5">
+            <div class="content flex-1 text-center md:text-left">
+                <h2 class="text-5xl font-bold mb-8"><Span class="text-sky-500">English</Span> is Easy!!</h2>
+                <p class="font-bangla font-medium text-2xl">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ</p>
+                <div class="mt-5">
+                    <fieldset class="fieldset flex flex-col">
+                        <input type="text" class="input" placeholder="Enter your name" />
+                        <input type="password" class="input" placeholder="Password" />
+                        <div class="text-left">
+                            <a class="link link-hover">Forgot password?</a>
+                        </div>
+                        <button class="mt-4 btn btn-primary w-fit">Get Started</button>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="image flex flex-1 justify-end">
+                <img src="./assets/hero-student.png" alt="" class="">
+            </div>
+        </section>
+
+
+        <section class="w-10/12 mx-auto py-5">
+            <h2 class="text-5xl font-bold mb-8 text-center"><Span class="text-sky-500">Let's</Span> Learn Vocabulary</h2>
+            <div id="level-container" class="flex gap-5 flex-wrap justify-center">
+                
+            </div>
+        </section>
+
+        <section id="word-container" class="bg-gray-200 w-11/12 mx-auto rounded-lg p-10 my-10">
+
+        </section>
+    </main>
+
+
+    <script src="./script/index.js"></script>
 </body>
 </html>
