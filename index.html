@@ -97,14 +97,33 @@
 
         <section class="w-10/12 mx-auto py-5">
             <h2 class="text-5xl font-bold mb-8 text-center"><Span class="text-sky-500">Let's</Span> Learn Vocabulary</h2>
-            <div id="level-container" class="flex gap-5 flex-wrap justify-center">
-                
+            <div id="level-container" class="flex gap-5 flex-wrap justify-center"></div>
+        </section>
+
+        <section id="loading-container" class="w-10/12 mx-auto py-5 flex justify-center hidden">
+            <span class="loading loading-bars loading-xl"></span>
+        </section>
+
+        <section id="word-container" class="bg-gray-200 w-11/12 mx-auto rounded-lg p-10 my-10 grid grid-cols-3 gap-5">
+            <div class="text-center col-span-full py-10 space-y-6">
+                <p class="text-xl font-bangla font-medium text-[#79716B]">আপনি এখনো কোন Lesson Select করেননি</p>
+                <h2 class="font-bold text-4xl font-bangla">একটি Lesson Select করুন</h2>
             </div>
         </section>
 
-        <section id="word-container" class="bg-gray-200 w-11/12 mx-auto rounded-lg p-10 my-10">
-
-        </section>
+        
+        <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+            <div class="modal-box">
+                <div id="details-container" class="space-y-5">
+                    
+                </div>
+                <div class="modal-action">
+                    <form method="dialog">
+                        <button class="btn">Close</button>
+                    </form>
+                </div>
+            </div>
+        </dialog>
     </main>
 
 
